@@ -195,7 +195,7 @@ header {
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	padding: 0 20px;
 }
 
@@ -328,11 +328,10 @@ header {
 .hero-image {
 	display: flex;
 	justify-content: center;
-	/* FOR BACKGROUND IMG
+	/* FOR BACKGROUND IMG*/
 	background-image: url(section.png);
 	background-size: cover;
 	background-position: 0 75%;
-	*/
 	width: 100%;
 	height: 420px;
 	padding-bottom: 15px;
