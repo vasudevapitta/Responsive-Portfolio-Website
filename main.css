@@ -1,0 +1,405 @@
+/* For iPad Pro */
+@media screen and (min-height: 1000px) {
+
+		.showcase {
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+}
+
+/* For All Mobile */
+@media screen and (max-width: 700px) {
+		body {
+			margin: 0 2vw;
+			margin-top: 2vh;
+			color: #2d3c4d;
+		}
+/* For Hamburger menu
+		.hamburger-row {
+			visibility: visible;
+			margin: 15px 0;
+		}
+*/
+		.logo {
+			align-items: left;
+			width: 100%;
+			margin-top: 0;
+		}
+
+		.title {
+			text-align: right;
+			width: 75%;
+			margin-top: -50px;
+		}
+
+		.social-media {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			height: 40px;
+		}
+
+		.showcase {
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+
+		.name {
+			font: 27px/1.6 Raleway, helvetica, open-sans;
+		}
+		
+		.job-title {
+			font: 20px/1.0 Raleway, helvetica, open-sans;
+		}
+
+		.box-one,
+		.box-two,
+		.box-three {
+			width: 100%;
+			height: 150px;
+			margin-bottom: 30px;
+		}
+
+}
+
+@media screen and (min-width: 701px) {
+		body {
+			margin: 0 5vw;
+			color: #2d3c4d;
+		}
+/* For Hamburger menu
+		.hamburger-row {
+			visibility: hidden;
+			margin: 0;
+		}
+*/
+		.title {
+			text-align: right;
+			width: 75%;
+			margin-top: 0;
+		}
+		
+		.logo {
+			align-items: left;
+			width: 100%;
+			margin-top: 20px;
+		}
+
+		.name {
+			font: 50px/1.6 Raleway, helvetica, open-sans;
+		}
+		
+		.job-title {
+			font: 30px/1.0 Raleway, helvetica, open-sans;
+		}
+
+		.box-one, .box-two {
+			margin-right: 10px;
+		}
+
+		.box-one,
+		.box-two,
+		.box-three {
+			width: 100%;
+			height: 150px;
+			margin-bottom: 30px;
+		}
+
+		.social-media {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			width: 100%;
+			height: 40px;
+		}
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* header which includes the logo, name of the person and the job title */
+header {
+	align-items: center;
+	display: flex;
+	padding-bottom: 15px;
+}
+
+/* For Hamburger menu
+.hamburger-row {
+	width: 100%;
+	height: 35px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hamburger-menu {
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: #02b3e4;
+	border-radius: 2px;
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 35px;
+}
+*/
+.logoAndSocialIcons {
+	width: 25%;
+}
+
+.logo img {
+	width: 60px;
+	height: 59px;
+}
+
+.fa-facebook-square,
+.fa-linkedin,
+.fa-google-plus-square,
+.fa-envelope
+ {	
+	color: #7d97ad;
+	font-size: 30px;
+	padding: 0 10px;
+}
+
+.facebook,
+.linkedin,
+.google,
+.email {
+	cursor: pointer;
+}
+
+.fa-facebook-square:hover,
+.fa-linkedin:hover,
+.fa-google-plus-square:hover,
+.fa-envelope:hover {
+	color: #4a5c6b;
+}
+
+/* line seperating the header and the section */
+.seperator {
+	height: 7px;
+	width: 100%;
+	margin-bottom: 18px;
+	background-color: #7d97ad;
+}
+		
+.skills {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.8);
+	padding: 0 20px;
+}
+
+
+.skilltext {
+	height: 35px;
+	font: 25px/1.5 Raleway, helvetica, open-sans;
+}
+
+.part {
+	width: 100%;
+	height: 55px;
+	margin-bottom: 5px;
+}
+
+.progressbar-empty {
+	width: 100%;
+	height: 20px;
+	background-color: #dedede;
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+}
+
+.progressbar-fullonezero,
+.progressbar-fulltwozero,
+.progressbar-fullthreezero,
+.progressbar-fullfourzero,
+.progressbar-fullfivezero,
+.progressbar-fullsixzero,
+.progressbar-fullsevenzero
+ {
+	height: 20px;
+	border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 20px 0px 0px 20px;
+}
+
+.progressbar-fullone,
+.progressbar-fulltwo,
+.progressbar-fullthree,
+.progressbar-fullfour,
+.progressbar-fullfive,
+.progressbar-fullsix,
+.progressbar-fullseven
+ {
+	height: 20px;
+	border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 20px 0px 0px 20px;
+}
+
+.progressbar-fullonezero {
+	background-color: #633ea8;
+	width: 0%;
+}
+
+.progressbar-fulltwozero {
+	background-color: #ffde0c;
+	width: 0%;
+}
+
+.progressbar-fullthreezero {
+	width: 0%;
+	background-color: #6ccc43;
+}
+
+.progressbar-fullfourzero {
+	background-color: #f25918;
+	width: 0%;
+}
+
+.progressbar-fullfivezero {
+	background-color: #02b3e4;
+	width: 0%;
+}
+
+.progressbar-fullsixzero {
+	background-color: #01e489;
+	width: 0%;
+}
+
+.progressbar-fullsevenzero {
+	background-color: #ba1212;
+	width: 0%;
+}
+
+.progressbar-fullone {
+	background-color: #633ea8;
+	width: 80%;
+	transition: 0.5s ease-out;
+}
+
+.progressbar-fulltwo {
+	background-color: #ffde0c;
+	width: 60%;
+	transition: 0.5s ease-out;
+}
+
+.progressbar-fullthree {
+	width: 90%;
+	background-color: #6ccc43;
+	transition: 0.5s ease-out;
+}
+
+.progressbar-fullfour {
+	background-color: #f25918;
+	width: 60%;
+	transition: 0.5s ease-out;
+}
+
+.progressbar-fullfive {
+	background-color: #02b3e4;
+	width: 65%;
+	transition: 0.5s ease-out;
+}
+
+.progressbar-fullsix {
+	background-color: #01e489;
+	width: 70%;
+	transition: 0.5s ease-out;
+}
+
+.progressbar-fullseven {
+	background-color: #ba1212;
+	width: 55%;
+	transition: 0.5s ease-out;
+}
+
+.hero-image {
+	display: flex;
+	justify-content: center;
+	/* FOR BACKGROUND IMG
+	background-image: url(section.png);
+	background-size: cover;
+	background-position: 0 75%;
+	*/
+	width: 100%;
+	height: 420px;
+	padding-bottom: 15px;
+}
+
+article {
+	font: 20px/1.7 Raleway, helvetica, open-sans;
+}
+
+.showcase {
+	display: flex;
+	flex-direction: row;
+}
+
+.box-one,
+.box-two,
+.box-three {
+	cursor: pointer;
+	width: 100%;
+}
+
+.img-one,
+.img-two,
+.img-three {
+	width: 100%;
+	height: 80%;
+}
+
+.titles {
+	width: 100%;
+	height: 20%;
+}
+
+.img-one {
+	background-image: url(graphic-designs.jpg);
+	background-size: cover;
+	background-position: 0 65%;
+}
+
+.img-two {
+	background-image: url(webapp.jpg);
+	background-size: cover;
+}
+
+.img-three {
+	background-image: url(pixelart.png);
+	background-size: cover;
+	background-position: 50% 90%;	
+}
+
+
+.img-one:hover,
+.img-two:hover,
+.img-three:hover {
+	opacity: 0.5;
+	background-color: #fff;
+	transition: 0.5s ease;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 30px;
+	background-color: #7d97ad;
+	font: 14px/1.5 Raleway, helvetica, open-sans;
+	color: #fff;
+}
+
